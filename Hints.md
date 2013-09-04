@@ -24,15 +24,30 @@ When debugging, the issue [#15](https://github.com/Nodeclipse/nodeclipse-1/issue
 For your own sources be sure to use Nodeclipse Editor.
 
 Aptana uses also cannot simply install Nodeclipse plugin, as Aptana will not resolute to get required (since 0.4) JSDT dependency.
-The solution is provided in [Enide](http://marketplace.eclipse.org/content/enide-eclipse-nodejs-ide) is NJSDT (alternative to JSDT),
+The first solution is provided in [Enide](http://marketplace.eclipse.org/content/enide-eclipse-nodejs-ide) is NJSDT (alternative to JSDT),
  or manually from `https://bitbucket.org/nexj/updatesite/raw/default` for NJSDT+NJSDoc (thanks to @johnpeb)  
-The solution is also to install JSDT from Eclipse update site
-`http://download.eclipse.org/releases/juno` or `http://download.eclipse.org/releases/kepler`
+The second solution is to install first JSDT from Eclipse Indigo update site `http://download.eclipse.org/releases/indigo`
+(Juno and Kepler have conflicting dependency with Aptana Studio 3.4.2
+( ~~`http://download.eclipse.org/releases/juno` or `http://download.eclipse.org/releases/kepler`~~ ) )
 
 ![Getting-JSDT.PNG](Pictures/Getting-JSDT.PNG)
 
 Or you can take [Nodeclipse NTS](http://www.nodeclipse.org/nts/) and add [Aptana plugins](http://aptana.com/downloads/start)
  (Update Site URL: <http://download.aptana.com/studio3/plugin/install>).
+
+Effect of this is that you can't use latest JDST in Aptanta Studio, 
+however good side of Aptana is ... 
+
+#### Aptana CoffeeScript support
+
+Aptana has simple but nice Editor. No syntax check, but good outline.
+
+![](Pictures/Aptana-Coffee-Support.PNG)
+
+### Nodeclipse & Enide Studio
+
+Nodeclipse NTS is Eclipse distribution.
+[Nodeclipse NTS](http://www.nodeclipse.org/nts/) currently is only for Windows.
 
 ## Select JVM for Eclipse instance
 
@@ -83,6 +98,39 @@ Code assist for some libraries and framework is provided as extensions, for exam
 [Code assist for jQuery](http://marketplace.eclipse.org/content/jsdt-jquery).
 
 ### CoffeeScript Editor
+
+Check <http://coffeescript.org/> for intro about CoffeeScript.
+
+```coffeescript
+	# Assignment:
+	number   = 42
+	opposite = true
+	
+	# Conditions:
+	number = -42 if opposite
+	
+	# Functions:
+	square = (x) -> x * x
+	
+	# Arrays:
+	list = [1, 2, 3, 4, 5]
+	
+	# Objects:
+	math =
+	  root:   Math.sqrt
+	  square: square
+	  cube:   (x) -> x * square x
+	
+	# Splats:
+	race = (winner, runners...) ->
+	  print winner, runners
+	
+	# Existence:
+	alert "I knew it!" if elvis?
+	
+	# Array comprehensions:
+	cubes = (math.cube num for num in list)
+```
 
 Use [CoffeeScriptSet.p2f](https://raw.github.com/Nodeclipse/eclipse-node-ide/master/CoffeeScriptSet.p2f)
 to [quickly install](http://marketplace.eclipse.org/content/coffeescript-editor-quick-installer).  
@@ -233,7 +281,13 @@ From [Eclipse Help](http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.
 
 Eclipse Standard doesn't have HTML Editor included.
 
-In order to get HTML Editor 
+In order to get HTML Editor
+
+- check Nodeclipse Plugin List plugin or HTML Editor (standard on Marketplace)
+
+or 
+
+TODO update
 
 - for Kepler `http://download.eclipse.org/releases/kepler` update site, just select JSF Tools - Web Page Editor
 - for Juno `http://download.eclipse.org/releases/juno` update site, just select Web Page Editor

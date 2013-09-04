@@ -4,14 +4,15 @@ Copyright (C) 2013, by [Paul Verest](http://eclipse-china.github.io/) within Nod
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) 
-v0.4.26 (with Nodeclipse 0.4.0.201305191444; NJSDT+NJSDoc option;
+v0.4.27 (with Nodeclipse 0.4.0.201305191444; NJSDT+NJSDoc option;
  warn Kepler users; RestClient; jQuery;
  Eclipse QuickSearch; ShellEd 2.0.3; Chrome theme 1.7.4.201307160945; GFM 1.2.1 new repo;
  JSDT Kepler(actually not newer than NJSDT version); JSON Editor 0.9.7;
  CoffeeScipt & TypeScript Editors; JSHInt 0.9.8.20130728-0004; Git Addon; PLugins List; update description;
  CoffeeScript Editor 0.3.0 in new repo;   
  or use Nodeclipse Plugins List plugin for drag-and-drop installation; 201308191142;
- GFM Viewer 1.3.0 new update site; )
+ GFM Viewer 1.3.0 new update site; JSDT Indigo (good for Aptana Studio 3.4.2) 
+)
 
 WARNING: There are 2 bug in Eclipse 4.3 Kepler, that may make "File -> Import \ Install" usage not comfortable.
 In this case use this file as information source for update site values, and use Help -> Install New Software... 
@@ -47,7 +48,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 -->
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='21'>
+  <ius size='22'>
     <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
       <repositories size='1'>
         <repository location='http://www.nodeclipse.org/updates/pluginslist/'/>
@@ -58,12 +59,12 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://www.nodeclipse.org/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.sdk.feature.group' name='ChromeDevTools SDK' version='0.3.9.201305191444'>
+    <iu id='org.chromium.sdk.feature.group' name='ChromeDevTools SDK (required)' version='0.3.9.201305191444'>
       <repositories size='1'>
         <repository location='http://www.nodeclipse.org/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.debug.feature.group' name='Chromium JavaScript Remote Debugger' version='0.3.9.201305191444'>
+    <iu id='org.chromium.debug.feature.group' name='Chromium JavaScript Remote Debugger (required)' version='0.3.9.201305191444'>
       <repositories size='1'>
         <repository location='http://www.nodeclipse.org/updates/'/>
       </repositories>
@@ -83,14 +84,26 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://dist.springsource.com/release/TOOLS/update/e4.3/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JavaScript Development Tools - Kepler' version='1.5.0.v201301022000-7H7DFhZFC7sReqSz-frflXk'>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JSDT (JavaScript Development Tools) - Indigo' version='1.3.2.v201201112313-7G78FZvFC7sRekSz-g-nAlz'>
 	    <repositories size='1'>
-	      <repository location='http://download.eclipse.org/releases/kepler'/>
+	      <repository location='http://download.eclipse.org/releases/indigo/'/>
+	    </repositories>
+    </iu>
+    <!-- TODO
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JSDT (JavaScript Development Tools) - Juno' version='1.4.0'>
+	    <repositories size='1'>
+	      <repository location='http://download.eclipse.org/releases/juno/'/>
+	    </repositories>
+    </iu>
+     -->
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JSDT (JavaScript Development Tools) - Kepler' version='1.5.0.v201301022000-7H7DFhZFC7sReqSz-frflXk'>
+	    <repositories size='1'>
+	      <repository location='http://download.eclipse.org/releases/kepler/'/>
 	    </repositories>
     </iu>
     <iu id='org.eclipselabs.jsdt.jquery_feature.feature.group' name='JSDT jQuery Integration (Optional)' version='1.6.0'>
       <repositories size='1'>
-        <repository location='https://svn.codespot.com/a/eclipselabs.org/jsdt-jquery/updatesite'/>
+        <repository location='https://svn.codespot.com/a/eclipselabs.org/jsdt-jquery/updatesite/'/>
       </repositories>
     </iu>
     <iu id='com.eclipsesource.jshint.feature.feature.group' name='JSHint Eclipse Integration (Optional)' version='0.9.8.20130728-0004'>
