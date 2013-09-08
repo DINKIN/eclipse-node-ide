@@ -6,7 +6,7 @@ You can do whatever you want with this projects as long as you keep this license
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
 v0.5.30 (with Nodeclipse 0.5.0.201309080643, repo on Bintray; 
  NJSDT+NJSDoc option; warn Kepler users; RestClient; jQuery;
- Eclipse QuickSearch; ShellEd 2.0.3; Chrome theme 1.7.4.201307160945; GFM 1.2.1 new repo;
+ Eclipse QuickSearch; ShellEd 2.0.3; Chrome theme 1.7.4.201307160945;
  JSDT Kepler(actually not newer than NJSDT version); JSON Editor 0.9.7;
  CoffeeScipt & TypeScript Editors; JSHInt 0.9.8.20130728-0004; Git Addon; PLugins List; update description;
  CoffeeScript Editor 0.3.0 in new repo;   
@@ -28,7 +28,7 @@ Usage: Save to local folder (Ctrl+S in most browsers)
  Check http://www.nodeclipse.org for news and updates.
 
 See also: 
-- Configuration	https://github.com/Nodeclipse/org.nodeclipse.help/blob/master/contents/configuration.md#configuration
+- Configuration	https://github.com/Nodeclipse/nodeclipse-1/blob/master/org.nodeclipse.help/contents/configuration.md#configuration
 - Marketplace	http://marketplace.eclipse.org/content/enide-eclipse-nodejs-ide
 - Solution page	http://www.nodeclipse.org/enide 
 - Support		http://www.nodeclipse.org/#support
