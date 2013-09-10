@@ -13,7 +13,7 @@ Nodeclipse runs perfectly well inside Adobe Flex Builder
 
 ### Aptana Studio
 
-Aptana Studio hints are now on separate page Hints-Aptana.md
+Aptana Studio hints are now on [separate page Hints-Aptana.md](https://github.com/Nodeclipse/eclipse-node-ide/blob/master/Hints-Aptana.md#hints-aptana)
 
 ### Nodeclipse & Enide Studio
 
