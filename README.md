@@ -116,7 +116,7 @@ After installation you have more icons in Help -> About Eclipse
 
 Some recommended configuration (These steps are needed for every new workspace):  
 
-Moved to <https://github.com/Nodeclipse/org.nodeclipse.help/blob/master/contents/configuration.md#configuration>
+Moved to <https://github.com/Nodeclipse/nodeclipse-1/blob/master/org.nodeclipse.help/contents/configuration.md#configuration>
 
 ## Usage in pictures
 
