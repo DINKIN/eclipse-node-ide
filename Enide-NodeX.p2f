@@ -4,7 +4,7 @@ Copyright (C) 2013, by [Paul Verest](http://eclipse-china.github.io/) within Nod
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.5.32 (with Nodeclipse 0.5.0.201309080643, repo on Bintray; 
+v0.5.34 (with Nodeclipse 0.5.0.201309080643, repo on Bintray; 
  NJSDT+NJSDoc option; warn Kepler users; RestClient; jQuery;
  Eclipse QuickSearch; ShellEd 2.0.3; Chrome theme 1.7.4.201307160945;
  JSDT Kepler(actually not newer than NJSDT version); JSON Editor 0.9.7;
@@ -12,12 +12,14 @@ v0.5.32 (with Nodeclipse 0.5.0.201309080643, repo on Bintray;
  CoffeeScript Editor 0.3.0 in new repo;   
  or use Nodeclipse Plugins List plugin for drag-and-drop installation;
  GFM Viewer 1.3.0 new update site; JSDT Indigo (good for Aptana Studio 3.4.2);
- ATTENTION:
- there is known bug in Nodeclipse 0.5
-	 https://github.com/Nodeclipse/nodeclipse-1/issues/72 "All nodejs apps fail to run after upgrade to 0.5"
-	 if it happens to you let us know details and
-	 downgrade to 0.4 ( read http://www.nodeclipse.org/ for announce ) 
+"logically ordered list"		 
 )
+
+ ATTENTION: Nodeclipse 0.5 on JDK 6
+ there is known bug in Nodeclipse 0.5
+ https://github.com/Nodeclipse/nodeclipse-1/issues/72 "All nodejs apps fail to run after upgrade to 0.5"
+ if it happens to you let us know details ( read http://www.nodeclipse.org/ for announce )
+ It seems to be only on JKD 6, so update to JD 7 solve.
 
 WARNING: Not so good in Kepler:
 There are 2 bug in Eclipse 4.3 Kepler, that may make "File -> Import \ Install" usage not comfortable.
@@ -55,22 +57,22 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
   <ius size='22'>
-    <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
+    <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='0 Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
       <repositories size='1'>
         <repository location='http://www.nodeclipse.org/updates/pluginslist/'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.feature.group' name='Nodeclipse' version='0.5.0.201309080643'>
+    <iu id='org.nodeclipse.feature.group' name='01 Nodeclipse (core)' version='0.5.0.201309080643'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.sdk.feature.group' name='ChromeDevTools SDK (required)' version='0.3.9.201309080643'>
+    <iu id='org.chromium.sdk.feature.group' name='1 ChromeDevTools SDK (required)' version='0.3.9.201309080643'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.debug.feature.group' name='Chromium JavaScript Remote Debugger (required)' version='0.3.9.201309080643'>
+    <iu id='org.chromium.debug.feature.group' name='1 Chromium JavaScript Remote Debugger (required)' version='0.3.9.201309080643'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse'/>
       </repositories>
@@ -90,19 +92,19 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://dist.springsource.com/release/TOOLS/update/e4.3/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JSDT (JavaScript Development Tools) - Indigo' version='1.3.2.v201201112313-7G78FZvFC7sRekSz-g-nAlz'>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='1 JSDT (JavaScript Development Tools) - Indigo' version='1.3.2.v201201112313-7G78FZvFC7sRekSz-g-nAlz'>
 	    <repositories size='1'>
 	      <repository location='http://download.eclipse.org/releases/indigo/'/>
 	    </repositories>
     </iu>
     <!-- TODO
-    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JSDT (JavaScript Development Tools) - Juno' version='1.4.0'>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='1 JSDT (JavaScript Development Tools) - Juno' version='1.4.0'>
 	    <repositories size='1'>
 	      <repository location='http://download.eclipse.org/releases/juno/'/>
 	    </repositories>
     </iu>
      -->
-    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JSDT (JavaScript Development Tools) - Kepler' version='1.5.0.v201301022000-7H7DFhZFC7sReqSz-frflXk'>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='1 JSDT (JavaScript Development Tools) - Kepler' version='1.5.0.v201301022000-7H7DFhZFC7sReqSz-frflXk'>
 	    <repositories size='1'>
 	      <repository location='http://download.eclipse.org/releases/kepler/'/>
 	    </repositories>
@@ -122,22 +124,22 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='https://sourceforge.net/projects/eclipsejsonedit/files/update'/>
       </repositories>
     </iu>
-    <iu id='markdown.editor.feature.feature.group' name='Markdown Editor (required)' version='0.2.3'>
+    <iu id='markdown.editor.feature.feature.group' name='2 Markdown Editor (required)' version='0.2.3'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse'/>
       </repositories>
     </iu>
-    <iu id='code.satyagraha.gfm.viewer.feature.feature.group' name='GitHub Flavored Markdown (GFM) Viewer (Optional)' version='1.3.0.201309031934'>
+    <iu id='code.satyagraha.gfm.viewer.feature.feature.group' name='2 GitHub Flavored Markdown (GFM) Viewer (Optional)' version='1.3.0.201309031934'>
 	    <repositories size='1'>
 	      <repository location='http://dl.bintray.com/satyagraha/gfm-viewer/'/>
 	    </repositories>
     </iu>
-    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='NJSDT (JSDT alternative when JSDT is not installed)' version='1.5.0.201304171754'>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='1 NJSDT (JSDT alternative when JSDT is not installed)' version='1.5.0.201304171754'>
        <repositories size='1'>
         <repository location='https://bitbucket.org/nexj/updatesite/raw/default'/>
        </repositories>
     </iu>
-    <iu id='com.nexj.njsdoc.feature.feature.group' name='NJSDoc library (only with/require for NJSDT)' version='0.0.6.201304171754'>
+    <iu id='com.nexj.njsdoc.feature.feature.group' name='1 NJSDoc library (only with/require for NJSDT)' version='0.0.6.201304171754'>
       <repositories size='1'>
         <repository location='https://bitbucket.org/nexj/updatesite/raw/default'/>
       </repositories>
@@ -157,7 +159,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='https://svn.codespot.com/a/eclipselabs.org/restclient-tool/trunk/eclipse/update/'/>
       </repositories>
     </iu>
-    <iu id='csep.feature.feature.group' name='CoffeeScript Editor (help needed with newer version)' version='0.3.0.201308191142'>
+    <iu id='csep.feature.feature.group' name='CoffeeScript Editor (depends on XText)' version='0.3.0.201308191142'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/CoffeeScriptEditor'/>
       </repositories>
