@@ -4,7 +4,7 @@ Copyright (C) 2013, by [Paul Verest](http://eclipse-china.github.io/) within Nod
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.5.34 (with Nodeclipse 0.5.0.201309080643, repo on Bintray; 
+v0.5.35 (with Nodeclipse 0.5.0.201309080643, repo on Bintray; 
  NJSDT+NJSDoc option; warn Kepler users; RestClient; jQuery;
  Eclipse QuickSearch; ShellEd 2.0.3; Chrome theme 1.7.4.201307160945;
  JSDT Kepler(actually not newer than NJSDT version); JSON Editor 0.9.7;
@@ -12,7 +12,7 @@ v0.5.34 (with Nodeclipse 0.5.0.201309080643, repo on Bintray;
  CoffeeScript Editor 0.3.0 in new repo;   
  or use Nodeclipse Plugins List plugin for drag-and-drop installation;
  GFM Viewer 1.3.0 new update site; JSDT Indigo (good for Aptana Studio 3.4.2);
-"logically ordered list"		 
+"logically ordered list"; StartExplorer 1.5		 
 )
 
  ATTENTION: Nodeclipse 0.5 on JDK 6
@@ -144,10 +144,10 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='https://bitbucket.org/nexj/updatesite/raw/default'/>
       </repositories>
     </iu>
-    <iu id='de.bastiankrol.startexplorer.feature.feature.group' name='StartExplorer (Optional)' version='1.4.1'>
+    <iu id='de.bastiankrol.startexplorer.feature.feature.group' name='StartExplorer (Optional)' version='1.5.0'>
       <repositories size='1'>
         <repository location='http://basti1302.github.com/startexplorer/update/'/>
-    </repositories>
+      </repositories>
     </iu>
     <iu id='net.sourceforge.shelled.feature.group' name='ShellEd' version='2.0.3'>
 	    <repositories size='1'>
