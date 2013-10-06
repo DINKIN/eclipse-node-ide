@@ -206,3 +206,6 @@ In case you plan to blog or tweet about the Eclipse Node.js IDE, please use the 
   | Por favor, utilizar etiqueta ＃nodeclipse #enide  
   | ツイートする時は、＃nodeclipse ＃enide タグを使用してください。   
   | Bitte benutzen Sie tag ＃nodeclipse #enide um zu twiten.
+  
+<a href="http://with-eclipse.github.io/"><img alt="with-Eclipse logo" src="http://with-eclipse.github.io/with-eclipse-1.jpg" /></a>
+  
