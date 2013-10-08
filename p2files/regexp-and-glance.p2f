@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='4'>
+    <iu id='com.xored.glance.feature.group' name='Glance Core (Ctrl+Alt+F)' version='1.1.1'>
+      <repositories size='1'>
+        <repository location='http://eclipse-glance.googlecode.com/svn/site/'/>
+      </repositories>
+    </iu>
+    <iu id='com.xored.glance.cvs.feature.group' name='Glance CVS' version='1.1.1'>
+      <repositories size='1'>
+        <repository location='http://eclipse-glance.googlecode.com/svn/site/'/>
+      </repositories>
+    </iu>
+    <iu id='com.xored.glance.gef.feature.group' name='Glance GEF' version='1.1.1'>
+      <repositories size='1'>
+        <repository location='http://eclipse-glance.googlecode.com/svn/site/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.regexp.feature.feature.group' name='Regexp Feature' version='0.3.0'>
+      <repositories size='1'>
+        <repository location='http://zapletnev.github.io/eclipse-regexp/repository/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
