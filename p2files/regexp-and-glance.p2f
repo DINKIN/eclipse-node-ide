@@ -17,7 +17,7 @@
         <repository location='http://eclipse-glance.googlecode.com/svn/site/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.regexp.feature.feature.group' name='Regexp Feature' version='0.3.0'>
+    <iu id='org.eclipse.regexp.feature.feature.group' name='Regular Expression View' version='0.3.0'>
       <repositories size='1'>
         <repository location='http://zapletnev.github.io/eclipse-regexp/repository/'/>
       </repositories>

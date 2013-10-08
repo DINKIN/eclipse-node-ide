@@ -4,8 +4,9 @@ Copyright (C) 2013, by [Paul Verest](http://eclipse-china.github.io/) within Nod
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.6 with Nodeclipse 0.6
-		
+v0.6.03 with Nodeclipse 0.6; MPC 1.2.0; NJSDT, MJSDoc updated at new repo URL;
+ Regular Expressions View; Glance (Highlight anywhere, Ctrl+Alt+F)
+
 Usage: Save to local folder (Ctrl+S in most browsers)
  Make sure file extension is .p2f
  File -> Import \ Install Software Items from File, select this file location on your device.
@@ -41,10 +42,15 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 -->
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='22'>
+  <ius size='27'>
     <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='0 Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.6.0/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.epp.mpc.feature.group' name='Marketplace Client' version='1.2.0.v20130612-1900'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/kepler'/>
       </repositories>
     </iu>
     <iu id='org.nodeclipse.feature.group' name='01 Nodeclipse (core)' version='0.6.0.201310060830'>
@@ -119,14 +125,14 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 	      <repository location='http://dl.bintray.com/satyagraha/gfm-viewer/'/>
 	    </repositories>
     </iu>
-    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='1 NJSDT (JSDT alternative when JSDT is not installed)' version='1.5.0.201304171754'>
-       <repositories size='1'>
-        <repository location='https://bitbucket.org/nexj/updatesite/raw/default'/>
-       </repositories>
-    </iu>
-    <iu id='com.nexj.njsdoc.feature.feature.group' name='1 NJSDoc library (only with/require for NJSDT)' version='0.0.6.201304171754'>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='1 NJSDT (JSDT alternative when JSDT is not installed)' version='1.5.1.201309181633'>
       <repositories size='1'>
-        <repository location='https://bitbucket.org/nexj/updatesite/raw/default'/>
+        <repository location='http://devtools.nexj.com/updatesite/'/>
+      </repositories>
+    </iu>
+    <iu id='com.nexj.njsdoc.feature.feature.group' name='1 NJSDoc library (only with/require for NJSDT)' version='0.0.7.201309171714'>
+      <repositories size='1'>
+        <repository location='http://devtools.nexj.com/updatesite/'/>
       </repositories>
     </iu>
     <iu id='de.bastiankrol.startexplorer.feature.feature.group' name='StartExplorer (Start anything)' version='1.5.0'>
@@ -157,6 +163,26 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
     <iu id='gitaddon.feature.feature.group' name='Nodeclipse Git Addon' version='0.1.0.20130807-1611'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.6.0/'/>
+      </repositories>
+    </iu>
+    <iu id='com.xored.glance.feature.group' name='Glance Core (Highlight anywhere, Ctrl+Alt+F)' version='1.1.1'>
+      <repositories size='1'>
+        <repository location='http://eclipse-glance.googlecode.com/svn/site/'/>
+      </repositories>
+    </iu>
+    <iu id='com.xored.glance.cvs.feature.group' name='Glance CVS' version='1.1.1'>
+      <repositories size='1'>
+        <repository location='http://eclipse-glance.googlecode.com/svn/site/'/>
+      </repositories>
+    </iu>
+    <iu id='com.xored.glance.gef.feature.group' name='Glance GEF' version='1.1.1'>
+      <repositories size='1'>
+        <repository location='http://eclipse-glance.googlecode.com/svn/site/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.regexp.feature.feature.group' name='Regular Expression View' version='0.3.0'>
+      <repositories size='1'>
+        <repository location='http://zapletnev.github.io/eclipse-regexp/repository/'/>
       </repositories>
     </iu>
   </ius>
