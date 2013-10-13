@@ -16,7 +16,7 @@ see http://shelled.sourceforge.net/
         <repository location='https://downloads.sourceforge.net/project/shelled/shelled/update'/>
       </repositories>
     </iu>
-    <iu id='de.bastiankrol.startexplorer.feature.feature.group' name='StartExplorer  Feature' version='1.4.1'>
+    <iu id='de.bastiankrol.startexplorer.feature.feature.group' name='StartExplorer  Feature' version='1.5.0'>
       <repositories size='1'>
         <repository location='http://basti1302.github.com/startexplorer/update/'/>
       </repositories>
