@@ -39,3 +39,9 @@ But you will also need some time to configure UI (color themes and so on)
 Aptana has simple but nice Editor. No syntax check, but good outline.
 
 ![](Pictures/Aptana-Coffee-Support.PNG)
+
+##### IDE Hints
+
+select two files and select <kbd>Compare With -> Each Other</kbd
+
+![](Pictures/Aptana/Compare-With-Each-Other.png)
