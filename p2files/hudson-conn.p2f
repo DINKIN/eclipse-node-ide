@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='org.eclipse.mylyn.hudson.feature.group' name='Mylyn Builds Connector: Hudson/Jenkins' version='1.0.2.v20120916-1200'>
+      <repositories size='3'>
+        <repository location='http://download.eclipse.org/mylyn/releases/3.8'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://download.eclipse.org/releases/juno'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

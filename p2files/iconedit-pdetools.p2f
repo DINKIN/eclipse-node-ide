@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='2'>
+    <iu id='org.eclipse_icons.editor.feature.feature.group' name='Icons Editor Feature' version='2.4.0.201310220036'>
+      <repositories size='1'>
+        <repository location='http://eclipse-icons-editor.eclipselabs.org.codespot.com/git/site/org.eclipse_icons.editor.site/'/>
+      </repositories>
+    </iu>
+    <iu id='net.jeeeyul.pdetools.feature.feature.group' name='Jeeeyul&apos;s PDE-Tools' version='1.1.0.201301211219'>
+      <repositories size='1'>
+        <repository location='https://raw.github.com/jeeeyul/pde-tools/master/net.jeeeyul.pdetools.updatesite'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
