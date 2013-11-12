@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='SelectionExplorerFeature.feature.group' name='Selection Explorer Feature' version='1.0.2'>
+      <repositories size='1'>
+        <repository location='http://sandipchitaleseclipseplugins.googlecode.com/svn/trunk/SelectionExplorerUpdateSite'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
