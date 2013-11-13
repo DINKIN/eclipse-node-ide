@@ -8,7 +8,7 @@ http://wiki.eclipse.org/Eclipse_DemoCamps_November_2013
 http://events.eclipse.org/
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.7.01 with Nodeclipse 0.7, GFMV 1.6.0
+v0.7.02 with Nodeclipse 0.7, GFMV 1.6.0; ;
 	
 
 Usage: Save to local folder (Ctrl+S in most browsers)
@@ -129,11 +129,6 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://github.eclipsesource.com/jshint-eclipse/updates/'/>
       </repositories>
     </iu>
-    <iu id='jsonedit-feature.feature.group' name='JSON Editor Plugin (Optional for Outline)' version='0.9.7'>
-      <repositories size='1'>
-        <repository location='https://sourceforge.net/projects/eclipsejsonedit/files/update'/>
-      </repositories>
-    </iu>
     <iu id='markdown.editor.feature.feature.group' name='2 Markdown Editor (required)' version='0.2.3'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.7.0/'/>
@@ -164,6 +159,11 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 	      <repository location='https://downloads.sourceforge.net/project/shelled/shelled/update'/>
 	    </repositories>
 	  </iu>
+    <iu id='jsonedit-feature.feature.group' name='JSON Editor Plugin (Optional for Outline)' version='0.9.7'>
+      <repositories size='1'>
+        <repository location='https://sourceforge.net/projects/eclipsejsonedit/files/update'/>
+      </repositories>
+    </iu>
     <iu id='code.google.restclient.tool.feature.feature.group' name='RestClient Tool (Optional)' version='1.0.3'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.7.0/'/>
@@ -174,7 +174,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://dl.bintray.com/nodeclipse/CoffeeScriptEditor'/>
       </repositories>
     </iu>
-    <iu id='com.palantir.typescript.feature.feature.group' name='TypeScript Editor (not so stable, causes freezes, memory leaks, but in active development)' version='1.0.0.v20130802-2232'>
+    <iu id='com.palantir.typescript.feature.feature.group' name='TypeScript Editor' version='1.0.0.v20130802-2232'>
       <repositories size='1'>
         <repository location='http://eclipse-update.palantir.com/eclipse-typescript/'/>
       </repositories>
