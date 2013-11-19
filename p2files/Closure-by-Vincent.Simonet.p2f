@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='3'>
+    <iu id='net.vtst.ow.eclipse.soy.feature.feature.group' name='Closure Templates' version='1.0.9.4'>
+      <repositories size='1'>
+        <repository location='http://www.normalesup.org/~simonet/soft/ow/update/'/>
+      </repositories>
+    </iu>
+    <iu id='net.vtst.ow.eclipse.js.closure.feature.feature.group' name='JSDT for Closure' version='0.2.8'>
+      <repositories size='1'>
+        <repository location='http://www.normalesup.org/~simonet/soft/ow/update/'/>
+      </repositories>
+    </iu>
+    <iu id='net.vtst.ow.eclipse.less.feature.feature.group' name='LESS' version='1.0.18'>
+      <repositories size='1'>
+        <repository location='http://www.normalesup.org/~simonet/soft/ow/update/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
