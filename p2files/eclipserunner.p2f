@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='EclipseRunnerFeature.feature.group' name='EclipseRunnerFeature' version='1.3.0'>
+      <repositories size='1'>
+        <repository location='http://eclipserunnerplugin.googlecode.com/svn/trunk/EclipseRunnerSite'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
