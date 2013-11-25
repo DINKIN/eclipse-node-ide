@@ -8,7 +8,8 @@ http://wiki.eclipse.org/Eclipse_DemoCamps_November_2013
 http://events.eclipse.org/
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.7.03 with Nodeclipse 0.7, GFMV 1.6.0; ; JSDT for Closure, Closure Templates, LESS 
+v0.7.04 with Nodeclipse 0.7, GFMV 1.6.0; ; JSDT for Closure, Closure Templates, LESS;
+ Markdown Editor 1.0 at new repo
 	
 
 Usage: Save to local folder (Ctrl+S in most browsers)
@@ -129,9 +130,9 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://github.eclipsesource.com/jshint-eclipse/updates/'/>
       </repositories>
     </iu>
-    <iu id='markdown.editor.feature.feature.group' name='2 Markdown Editor (required)' version='0.2.3'>
+    <iu id='markdown.editor.feature.feature.group' name='2 Markdown Editor (required)' version='1.0.0.201311171502'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.7.0/'/>
+        <repository location='http://dl.bintray.com/enide/Markdown/1.0.0/'/>
       </repositories>
     </iu>
     <iu id='code.satyagraha.gfm.viewer.feature.feature.group' name='2 GitHub Flavored Markdown (GFM) Viewer (Optional)' version='1.6.0'>
