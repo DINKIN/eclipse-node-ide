@@ -1,5 +1,5 @@
 
-# Enide Hints
+# Hints
 
-- <Hints-Eclipse>
-- <editors/JSDT>
+- [Hints-Eclipse](Hints-Eclipse)
+- [editors/JSDT](editors/JSDT)
