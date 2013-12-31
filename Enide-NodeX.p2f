@@ -127,7 +127,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='https://svn.codespot.com/a/eclipselabs.org/jsdt-jquery/updatesite/'/>
       </repositories>
     </iu>
-    <iu id='com.eclipsesource.jshint.feature.feature.group' name='JSHint Eclipse Integration (Optional)' version='0.9.9.20131029-1050'>
+    <iu id='com.eclipsesource.jshint.feature.feature.group' name='1 JSHint Eclipse Integration (needed)' version='0.9.9.20131029-1050'>
       <repositories size='1'>
         <repository location='http://github.eclipsesource.com/jshint-eclipse/updates/'/>
       </repositories>
