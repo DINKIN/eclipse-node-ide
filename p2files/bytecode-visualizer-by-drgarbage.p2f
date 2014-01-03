@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='3'>
+    <iu id='com.drgarbage.bytecodevisualizer.feature.group' name='Bytecode Visualizer' version='4.3.3.201311221336'>
+      <repositories size='1'>
+        <repository location='http://sourceforge.net/projects/drgarbagetools/files/eclipse/4.3/stable/'/>
+      </repositories>
+    </iu>
+    <iu id='com.drgarbage.controlflowgraphfactory.feature.group' name='Control Flow Graph Factory' version='4.3.1.201311221336'>
+      <repositories size='1'>
+        <repository location='http://sourceforge.net/projects/drgarbagetools/files/eclipse/4.3/stable/'/>
+      </repositories>
+    </iu>
+    <iu id='com.drgarbage.sourcecodevisualizer.feature.group' name='Sourcecode Visualizer' version='4.3.2.201311261638'>
+      <repositories size='1'>
+        <repository location='http://sourceforge.net/projects/drgarbagetools/files/eclipse/4.3/stable/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

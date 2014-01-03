@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='com.tetrade.eclipse.plugins.easyshell.feature.feature.group' name='Easy Shell Feature' version='1.4.1'>
+      <repositories size='1'>
+        <repository location='http://pluginbox.sourceforge.net'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

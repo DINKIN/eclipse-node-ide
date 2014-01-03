@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='cukesjvmfeature.feature.group' name='Cucumber-JVM Editor and Runner' version='0.2.3'>
+      <repositories size='1'>
+        <repository location='http://mrpotes.github.com/cukes-jvm-eclipse-plugin/update-site'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='com.perforce.team.feature.feature.group' name='Perforce SCM Support' version='2013.1.662354'>
+      <repositories size='1'>
+        <repository location='http://www.perforce.com/downloads/http/p4-eclipse/install/4.3'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

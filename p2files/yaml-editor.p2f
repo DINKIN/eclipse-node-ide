@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='org.dadacoalition.yedit.feature.group' name='YEdit Feature' version='0.0.13'>
+      <repositories size='1'>
+        <repository location='http://dadacoalition.org/yedit'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

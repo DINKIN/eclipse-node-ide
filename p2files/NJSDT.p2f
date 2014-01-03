@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='2'>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JavaScript Development Tools' version='1.5.0.201304171754'>
+      <repositories size='1'>
+        <repository location='https://bitbucket.org/nexj/updatesite/raw/default'/>
+      </repositories>
+    </iu>
+    <iu id='com.nexj.njsdoc.feature.feature.group' name='NJSDoc library' version='0.0.6.201304171754'>
+      <repositories size='1'>
+        <repository location='https://bitbucket.org/nexj/updatesite/raw/default'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

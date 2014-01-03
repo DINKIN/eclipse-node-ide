@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='com.google.dart.eclipse.feature.feature.group' name='Dart Editor for Eclipse' version='1.0.0.r30798'>
+      <repositories size='1'>
+        <repository location='http://www.dartlang.org/eclipse/update/channels/stable/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='org.springsource.ide.eclipse.commons.quicksearch.feature.feature.group' name='Eclipse Quicksearch' version='3.3.0.201307040632-RELEASE'>
+      <repositories size='1'>
+        <repository location='http://dist.springsource.com/release/TOOLS/update/e4.3/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

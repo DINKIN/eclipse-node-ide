@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='1'>
+    <iu id='com.eclipsesource.jshint.feature.feature.group' name='JSHint Eclipse Integration' version='0.9.7.20130526-1111'>
+      <repositories size='1'>
+        <repository location='http://github.eclipsesource.com/jshint-eclipse/updates/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
