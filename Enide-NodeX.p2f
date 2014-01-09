@@ -4,8 +4,8 @@ Copyright (C) 2013-2014, by [Paul Verest](http://eclipse-china.github.io/) withi
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.9.06 with Nodeclipse 0.9.05, JSDT for Closure, Closure Templates, LESS; GFMV 1.8.0;
-	InstaSearch 1.5.5
+v0.9.07 with Nodeclipse 0.9.05, JSDT for Closure, Closure Templates, LESS; GFMV 1.8.0;
+	InstaSearch 1.5.5; Eclipse Moonrise UI Theme
 
 Usage: Save to local folder (Ctrl+S in most browsers)
  Make sure file extension is .p2f
@@ -44,7 +44,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 -->
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='35'>
+  <ius size='36'>
     <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='0 Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.8.0/'/>
@@ -95,6 +95,11 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/'/>
       </repositories>
     </iu>
+    <iu id='com.github.eclipseuitheme.themes.feature.feature.group' name='Eclipse Moonrise UI Theme' version='0.8.5'>
+	    <repositories size='1'>
+	      <repository location='https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite'/>
+	    </repositories>
+	  </iu>
     <iu id='it.unibz.instasearch.feature.indigo.feature.group' name='InstaSearch' version='1.5.5'>
       <repositories size='1'>
         <repository location='http://code.inf.unibz.it/instasearch/downloads/'/>
