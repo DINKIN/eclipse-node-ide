@@ -1,6 +1,8 @@
 # Hints
 
-[How can you speed up Eclipse?](http://stackoverflow.com/questions/316265/how-can-you-speed-up-eclipse)
+[How can you speed up Eclipse?][1]
+
+  [1]: http://stackoverflow.com/questions/316265/how-can-you-speed-up-eclipse
 
 ## Eclipse Distributions
 
@@ -39,6 +41,11 @@ Example:
 	-vmargs
 	-Xms40m
 	-Xmx512m
+
+Using `jvm.dll` is [advised][1] to be faster: 
+
+	-vm
+	C:\Program Files\Java\jdk1.7.0_11\jre\bin\server\jvm.dll
 
 ## Editors
 
