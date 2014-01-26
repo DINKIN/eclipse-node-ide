@@ -1,5 +1,7 @@
 # Hints
 
+[How can you speed up Eclipse?](http://stackoverflow.com/questions/316265/how-can-you-speed-up-eclipse)
+
 ## Eclipse Distributions
 
 You can get Nodeclipse plugin in any Eclipse-based IDE. Recommended are [standard Eclipse distributions](http://www.eclipse.org/downloads/)
