@@ -5,7 +5,7 @@ You can do whatever you want with this projects as long as you keep this license
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
 v0.10.0 JSDT for Closure, Closure Templates, LESS; GFMV 1.8.0;
-	InstaSearch 1.5.5; Eclipse Moonrise UI Theme; Nodeclipse 0.10.0 
+	InstaSearch 1.5.5; Eclipse Moonrise UI Theme; Nodeclipse 0.10.0; Eclipse 4 Moonrise UI Theme 0.8.6 
 
 WARNING: Not so good in Kepler:
 	There are 2 bug in Eclipse 4.3 Kepler, that may make "File -> Import \ Install" usage not quick/comfortable.
@@ -58,32 +58,32 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://download.eclipse.org/releases/kepler'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.feature.group' name='1 Nodeclipse Core and Node.js' version='0.10.0.201401270509'>
+    <iu id='org.nodeclipse.feature.group' name='1 Nodeclipse Core and Node.js' version='0.10.0.201401270634'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.10.0/'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.jjs.feature.feature.group' name='Nodeclipse Java 8 Nashorn JJS' version='0.10.0.201401270509'>
+    <iu id='org.nodeclipse.jjs.feature.feature.group' name='Nodeclipse Java 8 Nashorn JJS' version='0.10.0.201401270634'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.10.0/'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.phantomjs.feature.feature.group' name='Nodeclipse PhantomJS' version='0.10.0.201401270509'>
+    <iu id='org.nodeclipse.phantomjs.feature.feature.group' name='Nodeclipse PhantomJS' version='0.10.0.201401270634'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.10.0/'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.mongodb.feature.feature.group' name='Nodeclipse MongoDB Shell Integration' version='0.10.0.201401270509'>
+    <iu id='org.nodeclipse.mongodb.feature.feature.group' name='Nodeclipse MongoDB Shell Integration' version='0.10.0.201401270634'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.10.0/'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.sdk.feature.group' name='1 ChromeDevTools SDK (required)' version='0.3.9.201401270509'>
+    <iu id='org.chromium.sdk.feature.group' name='1 ChromeDevTools SDK (required)' version='0.3.9.201401270634'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.10.0/'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.debug.feature.group' name='1 Chromium JavaScript Remote Debugger (required)' version='0.3.9.201401270509'>
+    <iu id='org.chromium.debug.feature.group' name='1 Chromium JavaScript Remote Debugger (required)' version='0.3.9.201401270634'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.10.0/'/>
       </repositories>
@@ -98,7 +98,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/'/>
       </repositories>
     </iu>
-    <iu id='com.github.eclipseuitheme.themes.feature.feature.group' name='Eclipse 4 Moonrise UI Theme' version='0.8.5'>
+    <iu id='com.github.eclipseuitheme.themes.feature.feature.group' name='Eclipse 4 Moonrise UI Theme' version='0.8.6'>
 	    <repositories size='1'>
 	      <repository location='https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite'/>
 	    </repositories>
