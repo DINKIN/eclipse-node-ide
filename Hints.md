@@ -275,3 +275,8 @@ TODO update
 http://download.eclipse.org/webtools/downloads/ is [not updated yet for Kepler](https://bugs.eclipse.org/bugs/show_bug.cgi?id=414373).
 
 ![](Pictures/Eclipse-File-Assotiation.png)
+
+## How-to's
+
+- <http://stackoverflow.com/questions/6276850/how-to-determine-what-is-making-eclipse-slow>
+
