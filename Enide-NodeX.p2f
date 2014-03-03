@@ -4,10 +4,10 @@ Copyright (C) 2013-2014, by [Paul Verest](http://eclipse-china.github.io/) withi
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.11 JSDT for Closure, Closure Templates, LESS; GFMV 1.8.0;
+v0.11.1 JSDT for Closure, Closure Templates, LESS; GFMV 1.8.0;
 	InstaSearch 1.5.5; Eclipse 4 Moonrise UI Theme 0.8.8;
-	Jeeeyu Themes up to 1.7.10; 
-	Nodeclipse 0.11; review all
+	Jeeeyul Themes up to 1.7.10; 
+	Nodeclipse 0.11; review all; Json Tools
 
 
 Usage: Save to local folder (Ctrl+S in most browsers)
@@ -56,7 +56,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 -->
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='36'>
+  <ius size='37'>
     <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='0 Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.11/'/>
@@ -179,9 +179,14 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 	      <repository location='https://downloads.sourceforge.net/project/shelled/shelled/update'/>
 	    </repositories>
 	  </iu>
-    <iu id='jsonedit-feature.feature.group' name='JSON Editor Plugin (Optional for Outline)' version='0.9.7'>
+    <iu id='jsonedit-feature.feature.group' name='JSON Editor Plugin (Option 1 for Outline)' version='0.9.7'>
       <repositories size='1'>
         <repository location='https://sourceforge.net/projects/eclipsejsonedit/files/update'/>
+      </repositories>
+    </iu>
+    <iu id='org.sweetlemonade.eclipse.json.feature.feature.group' name='Json Tools (better Option 2 for Outline)' version='1.0.3'>
+      <repositories size='1'>
+        <repository location='https://bitbucket.org/denmiroch/jsontools/src/default/JsonSite/'/>
       </repositories>
     </iu>
     <iu id='code.google.restclient.tool.feature.feature.group' name='RestClient Tool (Optional)' version='1.0.3'>
