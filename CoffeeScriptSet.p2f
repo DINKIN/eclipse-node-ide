@@ -40,9 +40,9 @@ Please use the #nodeclipse & #coffeescript tags to twit about.
         <repository location='http://www.nodeclipse.org/updates/pluginslist/'/>
       </repositories>
     </iu>
-    <iu id='csep.feature.feature.group' name='CoffeeScript Editor (help needed with newer version)' version='0.3.0.201308191142'>
+    <iu id='csep.feature.feature.group' name='CoffeeScript Editor (depends on XText, not 4.3.1+ compatible, see #19)' version='0.4.0.201403250304/'>
       <repositories size='1'>
-        <repository location='http://www.nodeclipse.org/coffeescript/repository/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/CoffeeScriptEditor/0.4.0-201403250304/'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.xtext.xbase.feature.group' name='Xbase' version='2.4.1.v201304180855'>
