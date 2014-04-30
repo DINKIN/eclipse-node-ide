@@ -4,10 +4,11 @@ Copyright (C) 2013-2014, by [Paul Verest](http://eclipse-china.github.io/) withi
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
 [Enide - Eclipse Node.js IDE](http://www.nodeclipse.org/enide) Node.x (js,coffee,ts)
-v0.12.1 JSDT for Closure, Closure Templates, LESS; GFMV 1.8.0;
+v0.15.1 JSDT for Closure, Closure Templates, LESS; GFMV 1.8.0;
 	InstaSearch 1.5.5; Eclipse 4 Moonrise UI Theme 0.8.8;
 	Jeeeyul Themes up to 1.7.10; 
-	review all; Json Tools; Nodeclipse 0.12; up Git Addon; Coffee 0.4.0
+	review all; Json Tools; Nodeclipse 0.12; up Git Addon; Coffee 0.4.0;
+	Nodeclipse/Enide 0.15.1; remove 3 color plugins, see http://www.nodeclipse.org/updates repository
 
 
 Usage: Save to local folder (Ctrl+S in most browsers)
@@ -56,10 +57,10 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 -->
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='37'>
+  <ius size='34'>
     <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='0 Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.epp.mpc.feature.group' name='0 Marketplace Client' version='1.2.0.v20130612-1900'>
@@ -67,51 +68,36 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
         <repository location='http://download.eclipse.org/releases/kepler'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.feature.group' name='1 Nodeclipse Core and Node.js' version='0.12.0-201403310510'>
+    <iu id='org.nodeclipse.feature.group' name='1 Nodeclipse Core and Node.js' version='0.15.1-201404300203'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.jjs.feature.feature.group' name='Nodeclipse Java 8 Nashorn JJS' version='0.12.0-201403310510'>
+    <iu id='org.nodeclipse.jjs.feature.feature.group' name='Nodeclipse Java 8 Nashorn JJS' version='0.15.1-201404300203'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.phantomjs.feature.feature.group' name='Nodeclipse PhantomJS' version='0.12.0-201403310510'>
+    <iu id='org.nodeclipse.phantomjs.feature.feature.group' name='Nodeclipse PhantomJS' version='0.15.1-201404300203'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
-    <iu id='org.nodeclipse.mongodb.feature.feature.group' name='Nodeclipse MongoDB Shell Integration' version='0.12.0-201403310510'>
+    <iu id='org.nodeclipse.mongodb.feature.feature.group' name='Nodeclipse MongoDB Shell Integration' version='0.15.1-201404300203'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.sdk.feature.group' name='1 ChromeDevTools SDK (required)' version='0.3.9.201403310510'>
+    <iu id='org.chromium.sdk.feature.group' name='1 ChromeDevTools SDK (required)' version='0.3.9.201404300203'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
-    <iu id='org.chromium.debug.feature.group' name='1 Chromium JavaScript Remote Debugger (required)' version='0.3.9.201403310510'>
+    <iu id='org.chromium.debug.feature.group' name='1 Chromium JavaScript Remote Debugger (required)' version='0.3.9.201404300203'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
-    <iu id='com.github.eclipsecolortheme.feature.feature.group' name='Eclipse 3.x Color Theme (Optional) // not the latest' version='0.12.0.201207240713'>
-	    <repositories size='1'>
-	      <repository location='http://eclipse-color-theme.github.com/update'/>
-	    </repositories>
-    </iu>
-    <iu id='net.jeeeyul.eclipse.themes.feature.feature.group' name='Eclipse 4 Chrome Theme (Optional)' version='1.7.10'>
-      <repositories size='1'>
-        <repository location='http://jeeeyul.github.io/update/'/>
-      </repositories>
-    </iu>
-    <iu id='com.github.eclipseuitheme.themes.feature.feature.group' name='Eclipse 4 Moonrise UI Theme' version='0.8.8'>
-	    <repositories size='1'>
-	      <repository location='https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite'/>
-	    </repositories>
-	  </iu>
     <iu id='it.unibz.instasearch.feature.indigo.feature.group' name='InstaSearch' version='1.5.5'>
       <repositories size='1'>
         <repository location='http://code.inf.unibz.it/instasearch/downloads/'/>
@@ -171,7 +157,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
     </iu>
     <iu id='de.bastiankrol.startexplorer.feature.feature.group' name='StartExplorer (Start anything)' version='1.5.1'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
     <iu id='net.sourceforge.shelled.feature.group' name='ShellEd' version='2.0.3'>
@@ -191,7 +177,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
     </iu>
     <iu id='code.google.restclient.tool.feature.feature.group' name='RestClient Tool (Optional)' version='1.0.3'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
     <iu id='csep.feature.feature.group' name='CoffeeScript Editor (depends on XText, not 4.3.1+ compatible, see #19)' version='0.4.0.201403250304/'>
@@ -206,7 +192,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
     </iu>
     <iu id='gitaddon.feature.feature.group' name='Nodeclipse Git Addon' version='1.0.0.20140303-0606'>
       <repositories size='1'>
-        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.12/'/>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.15.1/'/>
       </repositories>
     </iu>
     <iu id='com.xored.glance.feature.group' name='Glance Core (Highlight anywhere, Ctrl+Alt+F)' version='1.1.1'>
@@ -244,7 +230,7 @@ https://coinbase.com/checkouts/e9ac3765ff998b0e03b9e91f73152fc1
 	      <repository location='http://www.normalesup.org/~simonet/soft/ow/update/'/>
 	    </repositories>
 	  </iu>
-	  <iu id='net.vtst.ow.eclipse.less.feature.feature.group' name='LESS' version='1.0.18'>
+	  <iu id='net.vtst.ow.eclipse.less.feature.feature.group' name='LESS' version='1.0.19'>
 	    <repositories size='1'>
 	      <repository location='http://www.normalesup.org/~simonet/soft/ow/update/'/>
 	    </repositories>
